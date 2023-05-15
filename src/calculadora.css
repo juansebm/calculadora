@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+.big-button {
+  grid-column: span 2; /* El botón ocupa dos columnas en la cuadrícula */
+  width: 117px;
+}
+
+.row {
+  display: grid;
+}
+
+.calculator {
+  display: grid;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: cadetblue;
+  padding: 10%;
+  justify-content: center;
+}
+  
+#visor {
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: right;
+  background-color: white;
+  font-size: 18px;
+}
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 5px;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 18px;
+    margin: 1px;
+    width: 55px;
+    height: 45px;
+}
+  
